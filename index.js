@@ -1,4 +1,5 @@
 import { AppRegistry } from 'react-native';
-import App from './App';
+import StackNavigator from './app/TabNavigator';
 
-AppRegistry.registerComponent('kolomthota', () => App);
+
+AppRegistry.registerComponent('kolomthota', () => StackNavigator);
